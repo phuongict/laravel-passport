@@ -27,6 +27,6 @@ Route::get('vue/cp2',function (){
 Route::get('vue/cp3',function (){
     return view('vue.cp3');
 });
-Route::get('passport/test',function (){
-    return view('passport.test');
+Route::get('passport',function (){
+    return view('passport.index');
 });
